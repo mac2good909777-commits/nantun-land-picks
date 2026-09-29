@@ -1,0 +1,2780 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>南屯優先地號建檔｜瑞禾開發</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#4B872F;--f:#2B5937;--gold:#C0A434;--cream:#F5F3EE;
+      --tx:#333;--bd:#E8E6E1;--dn:#C0533A;--sub:#C9D6C9;--foot:#B9CDB9;}
+*{box-sizing:border-box;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--tx);
+     font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;font-size:15px;line-height:1.85}
+.wrap{max-width:960px;margin:0 auto}
+header{background:var(--f);border-bottom:3px solid var(--gold);padding:26px 40px}
+header .inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:22px}
+header .card{width:100px;flex:0 0 100px;background:#fff;border-radius:4px;padding:8px;display:flex}
+header .card svg{width:100%;height:auto;display:block}
+header h1{color:#fff;font-size:24px;font-weight:700;margin:0 0 6px;letter-spacing:1px}
+header p{color:var(--sub);font-size:14px;margin:0;line-height:1.7}
+main{padding:32px 40px 44px}
+h2{font-size:21px;font-weight:600;color:var(--f);margin:36px 0 14px;padding-left:12px;border-left:4px solid var(--g)}
+h2:first-child{margin-top:0}
+p{margin:0 0 14px} b{color:var(--f)} a{color:var(--g)}
+ul{margin:8px 0 8px 20px;padding:0} li{margin-bottom:7px}
+.lead{background:var(--cream);border-left:5px solid var(--gold);padding:18px 20px;margin:0 0 24px;font-size:15.5px}
+.lead p:last-child{margin-bottom:0}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}
+.kpi{background:#F8F8F5;border:1px solid var(--bd);padding:15px;text-align:center}
+.kpi .v{font-size:25px;font-weight:700;color:var(--gold);font-family:Inter,sans-serif;line-height:1.3}
+.kpi .v.over{color:var(--dn)}
+.kpi .d{font-size:13px;color:#666;margin-top:3px;line-height:1.6}
+.callout{background:var(--cream);border-left:4px solid var(--gold);padding:15px 18px;margin:16px 0;font-size:14.5px}
+.warn{background:#FBF1EE;border-left-color:var(--dn)}
+footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;line-height:1.85;margin-top:38px}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:3px;color:#fff;white-space:nowrap}
+.t-full{background:var(--g)} .t-semi{background:var(--gold)} .t-manual{background:#8A8A82}
+.bar{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--bd);
+     padding:10px 0;margin:0 0 18px;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.bar button{font:inherit;font-size:13px;padding:5px 12px;border:1px solid var(--bd);
+     background:#fff;color:var(--tx);border-radius:3px;cursor:pointer}
+.bar button[aria-pressed="true"]{background:var(--f);border-color:var(--f);color:#fff;font-weight:700}
+.bar .go{background:var(--g);border-color:var(--g);color:#fff;font-weight:700}
+.bar .sp{flex:1} .bar .cnt{font-family:Inter,sans-serif;font-size:13px;color:#666}
+.site{border:1px solid var(--bd);border-left:4px solid var(--bd);margin:0 0 20px;background:#fff}
+.site.yes{border-left-color:var(--g);background:#FAFCF8}
+.site.no{border-left-color:var(--dn);opacity:.5}
+.sh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;padding:11px 16px;border-bottom:1px solid var(--bd);background:#F8F8F5}
+.sid{font-weight:700;color:var(--f)}
+.sno{font-family:Inter,sans-serif;font-weight:700;color:var(--gold)}
+.sz{font-size:13px;color:#666}
+.spg{margin-left:auto;font-family:Inter,sans-serif;font-weight:700;font-size:19px;color:var(--f)}
+.spg small{font-size:12px;font-weight:400;color:#666}
+.sst{font-size:12px;font-weight:700;padding:1px 8px;border-radius:3px;color:#fff;display:none}
+.site.yes .sst{display:inline-block;background:var(--g)}
+.site.no .sst{display:inline-block;background:var(--dn)}
+.imgs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--bd)}
+.imgs figure{margin:0;background:#fff;padding:0 0 6px}
+.imgs img{width:100%;height:auto;display:block}
+.imgs figcaption{font-size:11.5px;color:#777;line-height:1.5;padding:5px 9px 0}
+.svbox{position:relative}
+.svbox iframe{width:100%;height:100%;border:0;display:block;aspect-ratio:440/290}
+.svgo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  font:inherit;font-size:13.5px;font-weight:700;padding:9px 18px;border:0;border-radius:4px;
+  background:rgba(43,89,55,.92);color:#fff;cursor:pointer;white-space:nowrap}
+.facts{display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 16px;font-size:13px;color:#555;border-top:1px solid var(--bd)}
+.facts b{font-family:Inter,sans-serif}
+.act{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 16px 14px;border-top:1px solid var(--bd)}
+.act button{font:inherit;font-size:13.5px;font-weight:700;padding:7px 16px;border-radius:3px;cursor:pointer;border:1px solid var(--bd);background:#fff;color:var(--tx)}
+.act .b-yes{border-color:var(--g);color:var(--g)}
+.act .b-no{border-color:var(--dn);color:var(--dn)}
+.site.yes .b-yes{background:var(--g);color:#fff}
+.site.no .b-no{background:var(--dn);color:#fff}
+.act .note{flex:1;min-width:190px;font:inherit;font-size:13.5px;padding:7px 10px;border:1px solid var(--bd);border-radius:3px;color:var(--tx)}
+#out{width:100%;min-height:120px;font-family:Inter,monospace;font-size:12.5px;padding:10px;border:1px solid var(--bd);border-radius:3px;display:none;margin-top:10px}
+@media(max-width:760px){
+  main{padding:20px 16px 32px}header{padding:20px 16px}
+  header .inner{flex-direction:column;align-items:flex-start;gap:12px}
+  header h1{font-size:20px} body{font-size:14.5px} h2{font-size:19px}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .imgs{grid-template-columns:1fr} .spg{margin-left:0}
+}
+@media print{header,footer{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .bar,.act{display:none}}
+</style></head><body>
+
+<header><div class="inner">
+<div class="card"><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- Green rounded square background -->
+  <rect x="60" y="20" width="180" height="180" rx="24" ry="24" fill="#4B872F"/>
+  
+  <!-- White 禾 character -->
+  <text x="150" y="145" 
+        font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" 
+        font-size="120" font-weight="900" 
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">禾</text>
+  
+  <!-- Left wheat decoration -->
+  <g transform="translate(30, 60)" fill="#C0A434" opacity="0.9">
+    <ellipse cx="12" cy="8" rx="6" ry="10"/>
+    <ellipse cx="5" cy="22" rx="5" ry="8" transform="rotate(-18 5 22)"/>
+    <ellipse cx="19" cy="22" rx="5" ry="8" transform="rotate(18 19 22)"/>
+    <ellipse cx="4" cy="38" rx="4.5" ry="7" transform="rotate(-22 4 38)"/>
+    <ellipse cx="20" cy="38" rx="4.5" ry="7" transform="rotate(22 20 38)"/>
+    <ellipse cx="6" cy="54" rx="4" ry="6" transform="rotate(-15 6 54)"/>
+    <ellipse cx="18" cy="54" rx="4" ry="6" transform="rotate(15 18 54)"/>
+    <line x1="12" y1="4" x2="12" y2="80" stroke="#C0A434" stroke-width="2.5" opacity="0.7"/>
+  </g>
+
+  <!-- Right wheat decoration (mirrored) -->
+  <g transform="translate(246, 60) scale(-1,1)" fill="#C0A434" opacity="0.9">
+    <ellipse cx="12" cy="8" rx="6" ry="10"/>
+    <ellipse cx="5" cy="22" rx="5" ry="8" transform="rotate(-18 5 22)"/>
+    <ellipse cx="19" cy="22" rx="5" ry="8" transform="rotate(18 19 22)"/>
+    <ellipse cx="4" cy="38" rx="4.5" ry="7" transform="rotate(-22 4 38)"/>
+    <ellipse cx="20" cy="38" rx="4.5" ry="7" transform="rotate(22 20 38)"/>
+    <ellipse cx="6" cy="54" rx="4" ry="6" transform="rotate(-15 6 54)"/>
+    <ellipse cx="18" cy="54" rx="4" ry="6" transform="rotate(15 18 54)"/>
+    <line x1="12" y1="4" x2="12" y2="80" stroke="#C0A434" stroke-width="2.5" opacity="0.7"/>
+  </g>
+  
+  <!-- Brand name: 瑞禾開發 -->
+  <text x="150" y="248" 
+        font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" 
+        font-size="42" font-weight="700" 
+        fill="#4B872F" text-anchor="middle">瑞禾開發</text>
+  
+  <!-- Subtitle: 建築、房產整合團隊 -->
+  <text x="150" y="290" 
+        font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" 
+        font-size="18" font-weight="400" 
+        fill="#2B5937" text-anchor="middle" letter-spacing="3">建築、房產整合團隊</text>
+
+  <!-- Bottom wheat accent line -->
+  <g transform="translate(80, 310)">
+    <line x1="0" y1="8" x2="50" y2="8" stroke="#C0A434" stroke-width="1.5" opacity="0.5"/>
+    <ellipse cx="70" cy="5" rx="4" ry="6" fill="#C0A434" opacity="0.4"/>
+    <ellipse cx="65" cy="11" rx="3" ry="5" fill="#C0A434" opacity="0.3" transform="rotate(-15 65 11)"/>
+    <ellipse cx="75" cy="11" rx="3" ry="5" fill="#C0A434" opacity="0.3" transform="rotate(15 75 11)"/>
+    <line x1="90" y1="8" x2="140" y2="8" stroke="#C0A434" stroke-width="1.5" opacity="0.5"/>
+  </g>
+</svg></div>
+<div><h1>南屯優先地號建檔｜73 筆待挑</h1>
+<p>350–600 坪・住1-1 以上・無地上物・臨 15 米以上道路・地段行情 55–78 萬<br>
+每筆附空照與可轉動的 Google 街景；調閱點數餘額 290 點</p>
+</div></div></header>
+
+<div class="wrap"><main>
+
+<div class="lead">
+<p>這 73 筆是南屯區全區掃描後、<b>五道關卡全部通過</b>的地號：坪數、使用分區（住1-1 以上，純住一已排除）、建物登記無地上物、官方路寬 ≥15 公尺、地段成交行情 55–78 萬。取得過程<b>未花費任何 foundi 點數</b>。</p>
+<p style="margin-top:10px">逐筆看完按「要調閱」或「排除」，勾選存在這台裝置的瀏覽器裡。挑完按上方<b>「複製已選清單」</b>，貼回對話給我，我再依序調閱所有權人。</p>
+</div>
+
+<div class="kpis">
+<div class="kpi"><div class="v" id="k-all">73</div><div class="d">總數</div></div>
+<div class="kpi"><div class="v" id="k-yes">0</div><div class="d">要調閱</div></div>
+<div class="kpi"><div class="v" id="k-cost">0</div><div class="d">需點數（每筆 10 點）</div></div>
+<div class="kpi"><div class="v" id="k-left">290</div><div class="d">調閱後剩餘</div></div>
+</div>
+
+<div class="bar">
+  <button type="button" data-f="all" aria-pressed="true">全部</button>
+  <button type="button" data-f="un" aria-pressed="false">未判定</button>
+  <button type="button" data-f="yes" aria-pressed="false">要調閱</button>
+  <button type="button" data-f="no" aria-pressed="false">排除</button>
+  <span style="width:8px"></span><button type="button" data-sec="新富段" aria-pressed="false">新富段</button><button type="button" data-sec="楓溪段" aria-pressed="false">楓溪段</button><button type="button" data-sec="永新段" aria-pressed="false">永新段</button><button type="button" data-sec="永春段" aria-pressed="false">永春段</button><button type="button" data-sec="永益段" aria-pressed="false">永益段</button><button type="button" data-sec="永豐段" aria-pressed="false">永豐段</button><button type="button" data-sec="鎮福段" aria-pressed="false">鎮福段</button>
+  <span class="sp"></span>
+  <button type="button" class="go" id="copy">複製已選清單</button>
+  <span class="cnt" id="shown"></span>
+</div>
+<textarea id="out" readonly></textarea>
+
+
+<article class="site" id="永益段0013" data-id="永益段0013" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0013-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">463<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P01_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.141404,120.630424" data-yaw="272">
+        <img loading="lazy" src="img/P01_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南五路三段 20m</b></span>
+    <span>距路緣 <b>24m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.44 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.141404,120.630424" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.141404,120.630424&heading=272" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.141404,120.630424&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0291" data-id="鎮福段0291" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0291-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">567<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P02_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.129828,120.631405" data-yaw="46">
+        <img loading="lazy" src="img/P02_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>33m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.50 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.129828,120.631405" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.129828,120.631405&heading=46" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.129828,120.631405&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0190" data-id="鎮福段0190" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0190-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">403<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P03_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.131494,120.628375" data-yaw="218">
+        <img loading="lazy" src="img/P03_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>32m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.36 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.131494,120.628375" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.131494,120.628375&heading=218" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.131494,120.628375&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0176" data-id="永益段0176" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0176-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">361<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P04_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.136693,120.630206" data-yaw="64">
+        <img loading="lazy" src="img/P04_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>24m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.46 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.136693,120.630206" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.136693,120.630206&heading=64" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.136693,120.630206&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0183" data-id="永益段0183" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0183-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">414<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P05_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.135528,120.630192" data-yaw="61">
+        <img loading="lazy" src="img/P05_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>33m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.57 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.135528,120.630192" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.135528,120.630192&heading=61" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.135528,120.630192&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0188" data-id="永益段0188" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0188-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">354<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P06_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.135655,120.629486" data-yaw="61">
+        <img loading="lazy" src="img/P06_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 28m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.66 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.135655,120.629486" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.135655,120.629486&heading=61" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.135655,120.629486&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0208" data-id="鎮福段0208" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0208-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">545<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P07_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.130145,120.62926" data-yaw="309">
+        <img loading="lazy" src="img/P07_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>44m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.67 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.130145,120.62926" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.130145,120.62926&heading=309" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.130145,120.62926&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0187" data-id="永益段0187" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0187-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">559<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P08_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.135353,120.629668" data-yaw="61">
+        <img loading="lazy" src="img/P08_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 28m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.62 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.135353,120.629668" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.135353,120.629668&heading=61" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.135353,120.629668&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0198" data-id="鎮福段0198" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0198-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">398<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P09_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.131303,120.628599" data-yaw="218">
+        <img loading="lazy" src="img/P09_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>34m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.39 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.131303,120.628599" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.131303,120.628599&heading=218" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.131303,120.628599&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0181" data-id="永益段0181" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0181-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">363<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P10_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.135778,120.629945" data-yaw="61">
+        <img loading="lazy" src="img/P10_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>44m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.56 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.135778,120.629945" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.135778,120.629945&heading=61" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.135778,120.629945&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0138" data-id="鎮福段0138" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0138-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">462<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P11_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.132662,120.625983" data-yaw="151">
+        <img loading="lazy" src="img/P11_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富八路 20m</b></span>
+    <span>距路緣 <b>32m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.51 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.132662,120.625983" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.132662,120.625983&heading=151" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.132662,120.625983&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0136" data-id="新富段0136" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0136-0000</span>
+    <span class="sz">第一之B種住宅區</span>
+    <span class="spg">489<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P12_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.143488,120.623903" data-yaw="94">
+        <img loading="lazy" src="img/P12_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>環中路四段 16m</b></span>
+    <span>距路緣 <b>48m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>37.686 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.50 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.143488,120.623903" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.143488,120.623903&heading=94" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.143488,120.623903&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0161" data-id="永益段0161" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0161-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">549<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P13_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13667,120.630588" data-yaw="64">
+        <img loading="lazy" src="img/P13_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>58m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.39 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13667,120.630588" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13667,120.630588&heading=64" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13667,120.630588&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0127" data-id="永益段0127" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0127-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">580<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P14_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13932,120.629264" data-yaw="237">
+        <img loading="lazy" src="img/P14_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 25m</b></span>
+    <span>距路緣 <b>43m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.46 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13932,120.629264" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13932,120.629264&heading=237" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13932,120.629264&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0212" data-id="永益段0212" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0212-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">404<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P15_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.134417,120.631138" data-yaw="51">
+        <img loading="lazy" src="img/P15_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>無名路 22m</b></span>
+    <span>距路緣 <b>46m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.17 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.134417,120.631138" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.134417,120.631138&heading=51" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.134417,120.631138&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0061" data-id="永益段0061" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0061-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">498<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P16_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.139911,120.630282" data-yaw="37">
+        <img loading="lazy" src="img/P16_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 26m</b></span>
+    <span>距路緣 <b>69m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.79 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.139911,120.630282" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.139911,120.630282&heading=37" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.139911,120.630282&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0159" data-id="永益段0159" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0159-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">507<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P17_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.139746,120.628684" data-yaw="146">
+        <img loading="lazy" src="img/P17_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 25m</b></span>
+    <span>距路緣 <b>33m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.51 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.139746,120.628684" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.139746,120.628684&heading=146" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.139746,120.628684&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0136" data-id="鎮福段0136" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0136-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">395<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P18_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.131732,120.628046" data-yaw="234">
+        <img loading="lazy" src="img/P18_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>38m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.18 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.131732,120.628046" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.131732,120.628046&heading=234" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.131732,120.628046&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0161" data-id="永豐段0161" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0161-0000</span>
+    <span class="sz">第五種商業區</span>
+    <span class="spg">483<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P19_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.132363,120.633687" data-yaw="218">
+        <img loading="lazy" src="img/P19_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永順路 15m</b></span>
+    <span>距路緣 <b>25m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.983 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.40 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.132363,120.633687" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.132363,120.633687&heading=218" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.132363,120.633687&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0366" data-id="新富段0366" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0366-0000</span>
+    <span class="sz">第一之C種住宅區</span>
+    <span class="spg">454<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P20_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.140109,120.627228" data-yaw="190">
+        <img loading="lazy" src="img/P20_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春路 26m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>34.38 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.17 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.140109,120.627228" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.140109,120.627228&heading=190" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.140109,120.627228&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0422" data-id="鎮福段0422" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0422-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">395<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P21_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.130136,120.633868" data-yaw="228">
+        <img loading="lazy" src="img/P21_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 25m</b></span>
+    <span>距路緣 <b>36m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.13 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.130136,120.633868" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.130136,120.633868&heading=228" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.130136,120.633868&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0177" data-id="永益段0177" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0177-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">440<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P22_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13657,120.629543" data-yaw="67">
+        <img loading="lazy" src="img/P22_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>42m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.28 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13657,120.629543" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13657,120.629543&heading=67" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13657,120.629543&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0057" data-id="永豐段0057" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0057-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">597<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P23_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.136144,120.634096" data-yaw="210">
+        <img loading="lazy" src="img/P23_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 25m</b></span>
+    <span>距路緣 <b>40m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.33 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.136144,120.634096" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.136144,120.634096&heading=210" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.136144,120.634096&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0131" data-id="永益段0131" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0131-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">429<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P24_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.138278,120.629124" data-yaw="83">
+        <img loading="lazy" src="img/P24_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 25m</b></span>
+    <span>距路緣 <b>62m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.86 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.138278,120.629124" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.138278,120.629124&heading=83" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.138278,120.629124&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0252" data-id="鎮福段0252" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0252-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">416<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P25_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13232,120.63102" data-yaw="288">
+        <img loading="lazy" src="img/P25_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>23m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.41 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13232,120.63102" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13232,120.63102&heading=288" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13232,120.63102&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永新段0045" data-id="永新段0045" data-sec="永新段">
+  <div class="sh">
+    <span class="sid">永新段</span><span class="sno">0045-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">432<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P26_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.147562,120.630313" data-yaw="19">
+        <img loading="lazy" src="img/P26_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>五權西路二段 29m</b></span>
+    <span>距路緣 <b>58m</b></span>
+    <span>地段行情 <b>76.0 萬/坪</b></span>
+    <span>公告現值 <b>40.661 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.36 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.147562,120.630313" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.147562,120.630313&heading=19" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.147562,120.630313&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0087" data-id="永豐段0087" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0087-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">548<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P27_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.134219,120.633868" data-yaw="30">
+        <img loading="lazy" src="img/P27_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南五路二段 20m</b></span>
+    <span>距路緣 <b>26m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.07 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.134219,120.633868" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.134219,120.633868&heading=30" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.134219,120.633868&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0036" data-id="永豐段0036" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0036-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">376<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P28_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.1351,120.634922" data-yaw="5">
+        <img loading="lazy" src="img/P28_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南三路 15m</b></span>
+    <span>距路緣 <b>29m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.42 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.1351,120.634922" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.1351,120.634922&heading=5" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.1351,120.634922&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0416" data-id="鎮福段0416" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0416-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">372<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P29_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.130647,120.633266" data-yaw="228">
+        <img loading="lazy" src="img/P29_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 25m</b></span>
+    <span>距路緣 <b>43m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.12 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.130647,120.633266" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.130647,120.633266&heading=228" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.130647,120.633266&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0302" data-id="鎮福段0302" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0302-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">377<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P30_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.129685,120.630631" data-yaw="226">
+        <img loading="lazy" src="img/P30_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>35m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.02 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.129685,120.630631" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.129685,120.630631&heading=226" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.129685,120.630631&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0130" data-id="永益段0130" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0130-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">429<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P31_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.138491,120.629107" data-yaw="83">
+        <img loading="lazy" src="img/P31_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 25m</b></span>
+    <span>距路緣 <b>63m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.73 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.138491,120.629107" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.138491,120.629107&heading=83" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.138491,120.629107&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0267" data-id="鎮福段0267" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0267-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">372<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P32_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13115,120.632823" data-yaw="255">
+        <img loading="lazy" src="img/P32_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 25m</b></span>
+    <span>距路緣 <b>44m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.25 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13115,120.632823" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13115,120.632823&heading=255" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13115,120.632823&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0066" data-id="永豐段0066" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0066-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">385<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P33_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13455,120.633377" data-yaw="39">
+        <img loading="lazy" src="img/P33_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南五路二段 20m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.17 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13455,120.633377" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13455,120.633377&heading=39" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13455,120.633377&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永春段0315" data-id="永春段0315" data-sec="永春段">
+  <div class="sh">
+    <span class="sid">永春段</span><span class="sno">0315-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">443<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P34_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.139047,120.63089" data-yaw="37">
+        <img loading="lazy" src="img/P34_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 26m</b></span>
+    <span>距路緣 <b>29m</b></span>
+    <span>地段行情 <b>60.0 萬/坪</b></span>
+    <span>公告現值 <b>36.694 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.13 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.139047,120.63089" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.139047,120.63089&heading=37" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.139047,120.63089&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0086" data-id="鎮福段0086" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0086-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">520<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P35_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.133337,120.625916" data-yaw="331">
+        <img loading="lazy" src="img/P35_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富八路 20m</b></span>
+    <span>距路緣 <b>36m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.42 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.133337,120.625916" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.133337,120.625916&heading=331" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.133337,120.625916&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0423" data-id="新富段0423" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0423-0000</span>
+    <span class="sz">第一之B種住宅區</span>
+    <span class="spg">444<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P36_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.139382,120.627774" data-yaw="263">
+        <img loading="lazy" src="img/P36_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路三段 25m</b></span>
+    <span>距路緣 <b>59m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>34.38 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.28 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.139382,120.627774" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.139382,120.627774&heading=263" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.139382,120.627774&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0299" data-id="鎮福段0299" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0299-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">524<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P37_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.12964,120.629837" data-yaw="129">
+        <img loading="lazy" src="img/P37_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>37m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.10 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.12964,120.629837" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.12964,120.629837&heading=129" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.12964,120.629837&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0200" data-id="永益段0200" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0200-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">541<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P38_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.134997,120.631319" data-yaw="269">
+        <img loading="lazy" src="img/P38_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 30m</b></span>
+    <span>距路緣 <b>68m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.46 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.134997,120.631319" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.134997,120.631319&heading=269" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.134997,120.631319&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0118" data-id="鎮福段0118" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0118-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">539<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P39_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.132319,120.627296" data-yaw="234">
+        <img loading="lazy" src="img/P39_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>61m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.702 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.30 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.132319,120.627296" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.132319,120.627296&heading=234" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.132319,120.627296&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0392" data-id="鎮福段0392" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0392-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">524<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P40_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.127498,120.632439" data-yaw="226">
+        <img loading="lazy" src="img/P40_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>黎明路一段 20m</b></span>
+    <span>距路緣 <b>38m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.10 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.127498,120.632439" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.127498,120.632439&heading=226" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.127498,120.632439&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0198" data-id="永豐段0198" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0198-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">354<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P41_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.131385,120.634814" data-yaw="289">
+        <img loading="lazy" src="img/P41_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>黎明路一段 20m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.00 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.131385,120.634814" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.131385,120.634814&heading=289" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.131385,120.634814&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0393" data-id="鎮福段0393" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0393-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">589<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P42_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.127596,120.632685" data-yaw="226">
+        <img loading="lazy" src="img/P42_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>48m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.04 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.127596,120.632685" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.127596,120.632685&heading=226" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.127596,120.632685&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0282" data-id="新富段0282" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0282-0000</span>
+    <span class="sz">第一之B種住宅區</span>
+    <span class="spg">471<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P43_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.141326,120.624673" data-yaw="10">
+        <img loading="lazy" src="img/P43_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春路 25m</b></span>
+    <span>距路緣 <b>61m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>37.686 萬/坪</b></span>
+    <span>素地 <span class="tag t-full">0.67 雜草素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.141326,120.624673" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.141326,120.624673&heading=10" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.141326,120.624673&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0296" data-id="鎮福段0296" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0296-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">357<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P44_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.129945,120.630355" data-yaw="129">
+        <img loading="lazy" src="img/P44_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>57m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.10 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.129945,120.630355" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.129945,120.630355&heading=129" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.129945,120.630355&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0090" data-id="新富段0090" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0090-0000</span>
+    <span class="sz">第一之B種住宅區</span>
+    <span class="spg">368<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P45_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.143663,120.62793" data-yaw="272">
+        <img loading="lazy" src="img/P45_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>益豐路四段 25m</b></span>
+    <span>距路緣 <b>55m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>37.686 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.35 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.143663,120.62793" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.143663,120.62793&heading=272" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.143663,120.62793&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0065" data-id="永豐段0065" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0065-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">539<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P46_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.134778,120.633049" data-yaw="39">
+        <img loading="lazy" src="img/P46_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南五路二段 20m</b></span>
+    <span>距路緣 <b>26m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.10 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.134778,120.633049" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.134778,120.633049&heading=39" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.134778,120.633049&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0121" data-id="永益段0121" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0121-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">562<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P47_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.138185,120.629853" data-yaw="86">
+        <img loading="lazy" src="img/P47_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>10m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.47 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.138185,120.629853" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.138185,120.629853&heading=86" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.138185,120.629853&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0410" data-id="鎮福段0410" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0410-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">361<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P48_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.128568,120.633159" data-yaw="46">
+        <img loading="lazy" src="img/P48_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>62m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.26 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.128568,120.633159" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.128568,120.633159&heading=46" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.128568,120.633159&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0417" data-id="鎮福段0417" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0417-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">491<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P49_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.130453,120.632891" data-yaw="228">
+        <img loading="lazy" src="img/P49_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東五路 15m</b></span>
+    <span>距路緣 <b>32m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.14 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.130453,120.632891" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.130453,120.632891&heading=228" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.130453,120.632891&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0117" data-id="永益段0117" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0117-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">563<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P50_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.137809,120.630373" data-yaw="86">
+        <img loading="lazy" src="img/P50_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>鎮富路 22m</b></span>
+    <span>距路緣 <b>60m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.24 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.137809,120.630373" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.137809,120.630373&heading=86" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.137809,120.630373&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0408" data-id="新富段0408" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0408-0000</span>
+    <span class="sz">第一之A種住宅區</span>
+    <span class="spg">395<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P51_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.14023,120.624555" data-yaw="190">
+        <img loading="lazy" src="img/P51_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春路 25m</b></span>
+    <span>距路緣 <b>61m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>34.38 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.54 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.14023,120.624555" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.14023,120.624555&heading=190" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.14023,120.624555&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0338" data-id="鎮福段0338" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0338-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">451<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P52_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.127947,120.630752" data-yaw="134">
+        <img loading="lazy" src="img/P52_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東五路 15m</b></span>
+    <span>距路緣 <b>58m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.16 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.127947,120.630752" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.127947,120.630752&heading=134" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.127947,120.630752&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0070" data-id="永益段0070" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0070-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">473<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P53_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.13836,120.630916" data-yaw="217">
+        <img loading="lazy" src="img/P53_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 26m</b></span>
+    <span>距路緣 <b>30m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.35 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.13836,120.630916" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.13836,120.630916&heading=217" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.13836,120.630916&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0148" data-id="新富段0148" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0148-0000</span>
+    <span class="sz">第一之C種住宅區</span>
+    <span class="spg">443<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P54_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.143383,120.626193" data-yaw="92">
+        <img loading="lazy" src="img/P54_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路四段 24m</b></span>
+    <span>距路緣 <b>25m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>37.686 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.45 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.143383,120.626193" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.143383,120.626193&heading=92" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.143383,120.626193&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0258" data-id="鎮福段0258" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0258-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">403<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P55_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.132101,120.631747" data-yaw="108">
+        <img loading="lazy" src="img/P55_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>55m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.26 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.132101,120.631747" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.132101,120.631747&heading=108" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.132101,120.631747&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0132" data-id="永豐段0132" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0132-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">426<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P56_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.132956,120.635413" data-yaw="290">
+        <img loading="lazy" src="img/P56_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>黎明路一段 20m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.20 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.132956,120.635413" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.132956,120.635413&heading=290" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.132956,120.635413&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0330" data-id="鎮福段0330" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0330-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">435<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P57_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.128224,120.630605" data-yaw="134">
+        <img loading="lazy" src="img/P57_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東五路 15m</b></span>
+    <span>距路緣 <b>26m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.31 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.128224,120.630605" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.128224,120.630605&heading=134" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.128224,120.630605&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0502" data-id="新富段0502" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0502-0000</span>
+    <span class="sz">第一之B種住宅區</span>
+    <span class="spg">496<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P58_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.138648,120.625245" data-yaw="315">
+        <img loading="lazy" src="img/P58_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>60m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>34.38 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.36 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.138648,120.625245" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.138648,120.625245&heading=315" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.138648,120.625245&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0063" data-id="永豐段0063" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0063-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">361<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P59_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.135034,120.632745" data-yaw="89">
+        <img loading="lazy" src="img/P59_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南五路二段 20m</b></span>
+    <span>距路緣 <b>28m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.05 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.135034,120.632745" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.135034,120.632745&heading=89" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.135034,120.632745&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0262" data-id="鎮福段0262" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0262-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">410<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P60_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.131792,120.631549" data-yaw="108">
+        <img loading="lazy" src="img/P60_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>46m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.13 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.131792,120.631549" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.131792,120.631549&heading=108" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.131792,120.631549&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0433" data-id="新富段0433" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0433-0000</span>
+    <span class="sz">第一之B種住宅區</span>
+    <span class="spg">527<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P61_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.139581,120.625247" data-yaw="269">
+        <img loading="lazy" src="img/P61_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>57m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>34.38 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.15 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.139581,120.625247" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.139581,120.625247&heading=269" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.139581,120.625247&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0263" data-id="鎮福段0263" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0263-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">539<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P62_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.131544,120.631407" data-yaw="108">
+        <img loading="lazy" src="img/P62_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東七路 32m</b></span>
+    <span>距路緣 <b>41m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.02 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.131544,120.631407" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.131544,120.631407&heading=108" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.131544,120.631407&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0062" data-id="永豐段0062" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0062-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">401<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P63_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.135243,120.632537" data-yaw="89">
+        <img loading="lazy" src="img/P63_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>文心南五路二段 20m</b></span>
+    <span>距路緣 <b>27m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.05 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.135243,120.632537" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.135243,120.632537&heading=89" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.135243,120.632537&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0346" data-id="鎮福段0346" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0346-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">526<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P64_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.127244,120.630772" data-yaw="47">
+        <img loading="lazy" src="img/P64_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>環中路四段 40m</b></span>
+    <span>距路緣 <b>67m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.13 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.127244,120.630772" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.127244,120.630772&heading=47" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.127244,120.630772&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0328" data-id="鎮福段0328" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0328-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">368<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P65_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.128619,120.630262" data-yaw="314">
+        <img loading="lazy" src="img/P65_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東五路 15m</b></span>
+    <span>距路緣 <b>29m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.25 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.128619,120.630262" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.128619,120.630262&heading=314" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.128619,120.630262&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="楓溪段0018" data-id="楓溪段0018" data-sec="楓溪段">
+  <div class="sh">
+    <span class="sid">楓溪段</span><span class="sno">0018-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">356<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P66_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.127809,120.63364" data-yaw="95">
+        <img loading="lazy" src="img/P66_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路三段 24m</b></span>
+    <span>距路緣 <b>57m</b></span>
+    <span>地段行情 <b>59.0 萬/坪</b></span>
+    <span>公告現值 <b>38.347 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.06 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.127809,120.63364" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.127809,120.63364&heading=95" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.127809,120.63364&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永益段0099" data-id="永益段0099" data-sec="永益段">
+  <div class="sh">
+    <span class="sid">永益段</span><span class="sno">0099-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">351<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P67_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.137045,120.632237" data-yaw="217">
+        <img loading="lazy" src="img/P67_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東路 25m</b></span>
+    <span>距路緣 <b>66m</b></span>
+    <span>地段行情 <b>71.0 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.21 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.137045,120.632237" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.137045,120.632237&heading=217" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.137045,120.632237&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永新段0046" data-id="永新段0046" data-sec="永新段">
+  <div class="sh">
+    <span class="sid">永新段</span><span class="sno">0046-0000</span>
+    <span class="sz">第五種商業區</span>
+    <span class="spg">459<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P68_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.147334,120.62889" data-yaw="202">
+        <img loading="lazy" src="img/P68_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>五權西路二段 30m</b></span>
+    <span>距路緣 <b>34m</b></span>
+    <span>地段行情 <b>76.0 萬/坪</b></span>
+    <span>公告現值 <b>50.579 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.14 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.147334,120.62889" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.147334,120.62889&heading=202" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.147334,120.62889&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0326" data-id="鎮福段0326" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0326-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">452<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P69_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.128459,120.630045" data-yaw="314">
+        <img loading="lazy" src="img/P69_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東五路 15m</b></span>
+    <span>距路緣 <b>33m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.41 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.128459,120.630045" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.128459,120.630045&heading=314" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.128459,120.630045&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="永豐段0298" data-id="永豐段0298" data-sec="永豐段">
+  <div class="sh">
+    <span class="sid">永豐段</span><span class="sno">0298-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">373<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P70_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.128607,120.6361" data-yaw="298">
+        <img loading="lazy" src="img/P70_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東三路 15m</b></span>
+    <span>距路緣 <b>19m</b></span>
+    <span>地段行情 <b>63.2 萬/坪</b></span>
+    <span>公告現值 <b>41.322 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.03 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.128607,120.6361" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.128607,120.6361&heading=298" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.128607,120.6361&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="鎮福段0320" data-id="鎮福段0320" data-sec="鎮福段">
+  <div class="sh">
+    <span class="sid">鎮福段</span><span class="sno">0320-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">558<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P71_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.128274,120.629706" data-yaw="47">
+        <img loading="lazy" src="img/P71_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>環中路四段 40m</b></span>
+    <span>距路緣 <b>64m</b></span>
+    <span>地段行情 <b>68.0 萬/坪</b></span>
+    <span>公告現值 <b>35.372 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.12 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.128274,120.629706" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.128274,120.629706&heading=47" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.128274,120.629706&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="新富段0215" data-id="新富段0215" data-sec="新富段">
+  <div class="sh">
+    <span class="sid">新富段</span><span class="sno">0215-0000</span>
+    <span class="sz">第一之C種住宅區</span>
+    <span class="spg">414<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P72_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.14246,120.626161" data-yaw="92">
+        <img loading="lazy" src="img/P72_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>龍富路四段 24m</b></span>
+    <span>距路緣 <b>25m</b></span>
+    <span>地段行情 <b>61.9 萬/坪</b></span>
+    <span>公告現值 <b>37.686 萬/坪</b></span>
+    <span>素地 <span class="tag t-manual">0.23 裸地或有物</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.14246,120.626161" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.14246,120.626161&heading=92" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.14246,120.626161&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+<article class="site" id="楓溪段0190" data-id="楓溪段0190" data-sec="楓溪段">
+  <div class="sh">
+    <span class="sid">楓溪段</span><span class="sno">0190-0000</span>
+    <span class="sz">第一之一種住宅區</span>
+    <span class="spg">464<small> 坪</small></span>
+    <span class="sst"></span>
+  </div>
+  <div class="imgs">
+    <figure><img loading="lazy" src="img/P73_ortho.jpg" alt="空照">
+      <figcaption>空照 0.14m/px　青帶＝官方路寬　紅圈＝距中心 10/20/30/40m</figcaption></figure>
+    <figure>
+      <div class="svbox" data-ll="24.12823,120.636826" data-yaw="160">
+        <img loading="lazy" src="img/P73_sv.jpg" alt="街景預覽">
+        <button type="button" class="svgo">▶　載入可轉動街景</button>
+      </div>
+      <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
+  </div>
+  <div class="facts">
+    <span>臨路 <b>永春東三路 15m</b></span>
+    <span>距路緣 <b>66m</b></span>
+    <span>地段行情 <b>59.0 萬/坪</b></span>
+    <span>公告現值 <b>38.347 萬/坪</b></span>
+    <span>素地 <span class="tag t-semi">0.39 半素地</span></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&query=24.12823,120.636826" target="_blank" rel="noopener">地圖</a></span>
+    <span><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=24.12823,120.636826&heading=160" target="_blank" rel="noopener">大圖街景</a></span>
+    <span><a href="https://agent.foundi.info/tool/land?city=%E5%8F%B0%E4%B8%AD%E5%B8%82&locality=%E5%8D%97%E5%B1%AF%E5%8D%80&location_type=latlng&llc=24.12823,120.636826&land_area__gte=350&land_area__lte=600&order_by=distance&distance=300m" target="_blank" rel="noopener">foundi 看形狀</a></span>
+  </div>
+  <div class="act">
+    <button type="button" class="b-yes" data-act="yes">要調閱</button>
+    <button type="button" class="b-no" data-act="no">排除</button>
+    <button type="button" class="b-cl" data-act="clear">清除</button>
+    <input type="text" class="note" data-note placeholder="備註" maxlength="200">
+  </div>
+</article>
+
+<h2>看的時候要記得的五件事</h2>
+<ul>
+<li><b>街景要按一下才載入</b>，載入後就是真的 Google 街景，可以拖曳轉向、縮放、沿街走。預設只顯示縮圖，是為了避免 73 個嵌入同時開把頁面拖垮。</li>
+<li><b>形狀還沒篩。</b>foundi 的宗地邊長畫在 WebGL canvas 上，程式讀不到（canvas 讀回為空、無 SVG 覆蓋層、向量圖磚走 WebSocket），只能人工判。點「foundi 看形狀」會直接開到該宗地，紅色框線與邊長都在上面。</li>
+<li><b>素地判讀看植生比。</b>≥0.60 幾乎確定是雜草素地；<b>&lt;0.35 不等於有建物</b>，也可能是已整地的裸露素地——兩者在影像上同色，是這個方法已知的偏誤。看空照圖才分得出來。</li>
+<li><b>路寬是民國 110 年版官方資料</b>，13 期南側部分新闢道路尚未收錄；部分官方路帶畫在尚未闢築的計畫道路上。空照圖的青色帶就是官方路寬，可對照實際路面。</li>
+<li><b>行情是地段中位數</b>（實價登錄 2024–2025 南屯 878 筆純土地，剔除親友與持分後），不是個案價；<b>公告現值是課稅基準，不是行情</b>。</li>
+</ul>
+
+</main></div>
+
+<footer>
+<b style="color:#fff">瑞禾開發</b>　建築、房產整合團隊<br>
+南屯優先地號建檔　2026-09-29　｜　地號、坪數、使用分區、建蔽容積、公告現值引自 foundi 房地快搜免費層；路寬引自臺中市政府資料開放平臺「臺中市道路寬度」（民國110年版）；行情引自內政部不動產交易實價查詢；影像為國土測繪中心正射影像與 Google 街景。<br>
+內部開發判斷用途。正式交易前應以地政機關謄本與地籍圖為準。
+</footer>
+
+<script>
+(function () {
+  var KEY = "nantun-picks-v1";
+  var cards = [].slice.call(document.querySelectorAll(".site"));
+  var state = {}, filter = "all", secf = null;
+  var POINTS = 290, COST = 10;
+  try { state = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { state = {}; }
+
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+  function paint() {
+    var y = 0, shown = 0;
+    cards.forEach(function (c) {
+      var s = state[c.dataset.id] || {}, st = s.status || "";
+      c.classList.toggle("yes", st === "yes");
+      c.classList.toggle("no", st === "no");
+      c.querySelector(".sst").textContent = st === "yes" ? "要調閱" : st === "no" ? "排除" : "";
+      var nt = c.querySelector("[data-note]");
+      if (nt && document.activeElement !== nt) nt.value = s.note || "";
+      if (st === "yes") y++;
+      var okF = filter === "all" || (filter === "un" ? !st : filter === st);
+      var okS = !secf || c.dataset.sec === secf;
+      c.style.display = (okF && okS) ? "" : "none";
+      if (okF && okS) shown++;
+    });
+    document.getElementById("k-yes").textContent = y;
+    var cost = y * COST, left = POINTS - cost;
+    var ce = document.getElementById("k-cost"), le = document.getElementById("k-left");
+    ce.textContent = cost; le.textContent = left;
+    ce.classList.toggle("over", left < 0); le.classList.toggle("over", left < 0);
+    document.getElementById("shown").textContent = "顯示 " + shown + " / " + cards.length;
+  }
+
+  document.addEventListener("click", function (ev) {
+    var g = ev.target.closest(".svgo");
+    if (g) {
+      var box = g.closest(".svbox"), ll = box.dataset.ll, yaw = box.dataset.yaw;
+      var f = document.createElement("iframe");
+      f.loading = "lazy"; f.title = "Google 街景";
+      f.allowFullscreen = true;
+      f.referrerPolicy = "no-referrer-when-downgrade";
+      f.src = "https://maps.google.com/maps?q=&layer=c&cbll=" + ll +
+              "&cbp=11," + yaw + ",0,0,0&hl=zh-TW&output=svembed";
+      box.innerHTML = ""; box.appendChild(f);
+      return;
+    }
+    var b = ev.target.closest("[data-act]");
+    if (!b) return;
+    var card = b.closest(".site"), id = card.dataset.id, act = b.dataset.act;
+    var cur = (state[id] || {}).status || "";
+    state[id] = Object.assign({}, state[id], { status: act === "clear" ? "" : (cur === act ? "" : act) });
+    save(); paint();
+  });
+
+  document.addEventListener("input", function (ev) {
+    var el = ev.target.closest("[data-note]");
+    if (!el) return;
+    var id = el.closest(".site").dataset.id;
+    state[id] = Object.assign({}, state[id], { note: el.value });
+    save();
+  });
+
+  document.querySelectorAll(".bar [data-f]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      filter = b.dataset.f;
+      document.querySelectorAll(".bar [data-f]").forEach(function (o) {
+        o.setAttribute("aria-pressed", String(o === b));
+      });
+      paint(); scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+  document.querySelectorAll(".bar [data-sec]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      secf = (secf === b.dataset.sec) ? null : b.dataset.sec;
+      document.querySelectorAll(".bar [data-sec]").forEach(function (o) {
+        o.setAttribute("aria-pressed", String(o.dataset.sec === secf));
+      });
+      paint(); scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+
+  document.getElementById("copy").addEventListener("click", function () {
+    var yes = [], no = [];
+    cards.forEach(function (c) {
+      var s = state[c.dataset.id] || {};
+      var line = c.dataset.id + (s.note ? "　# " + s.note : "");
+      if (s.status === "yes") yes.push(line); else if (s.status === "no") no.push(line);
+    });
+    var txt = "要調閱（" + yes.length + " 筆，" + yes.length * COST + " 點）\n" + yes.join("\n") +
+              "\n\n排除（" + no.length + " 筆）\n" + no.join("\n");
+    var ta = document.getElementById("out");
+    ta.style.display = "block"; ta.value = txt; ta.select();
+    try { navigator.clipboard.writeText(txt); } catch (e) {}
+    try { document.execCommand("copy"); } catch (e) {}
+  });
+
+  paint();
+})();
+</script>
+</body></html>
