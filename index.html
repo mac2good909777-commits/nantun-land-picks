@@ -46,6 +46,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
 .site.yes{border-left-color:var(--g);background:#FAFCF8}
 .site.no{border-left-color:var(--dn);opacity:.5}
 .sh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;padding:11px 16px;border-bottom:1px solid var(--bd);background:#F8F8F5}
+.snum{font-family:Inter,sans-serif;font-weight:700;font-size:13px;color:#fff;background:var(--f);padding:2px 9px;border-radius:3px;letter-spacing:.5px}
 .sid{font-weight:700;color:var(--f)}
 .sno{font-family:Inter,sans-serif;font-weight:700;color:var(--gold)}
 .sz{font-size:13px;color:#666}
@@ -155,7 +156,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
 
 <div class="lead">
 <p>這 73 筆是南屯區全區掃描後、<b>五道關卡全部通過</b>的地號：坪數、使用分區（住1-1 以上，純住一已排除）、建物登記無地上物、官方路寬 ≥15 公尺、地段成交行情 55–78 萬。取得過程<b>未花費任何 foundi 點數</b>。</p>
-<p style="margin-top:10px">逐筆看完按「要調閱」或「排除」，勾選存在這台裝置的瀏覽器裡。挑完按上方<b>「送出選擇給 Claude」</b>——會開一個已經填好內容的 GitHub issue，你按下 Submit 我就讀得到，不必自己複製貼上。（也可以按「複製文字」自行貼回對話。）</p>
+<p style="margin-top:10px">每筆左上角有<b>編號 P01–P73</b>，方便你記錄與回報。逐筆看完按「要調閱」或「排除」，勾選存在這台裝置的瀏覽器裡。挑完按上方<b>「送出選擇給 Claude」</b>——會開一個已經填好內容的 GitHub issue，你按下 Submit 我就讀得到，不必自己複製貼上。（也可以按「複製文字」自行貼回對話。）</p>
 </div>
 
 <div class="kpis">
@@ -179,8 +180,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
 <textarea id="out" readonly></textarea>
 
 
-<article class="site" id="永益段0013" data-id="永益段0013" data-sec="永益段">
+<article class="site" id="永益段0013" data-id="永益段0013" data-num="P01" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P01</span>
     <span class="sid">永益段</span><span class="sno">0013-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">463<small> 坪</small></span>
@@ -215,8 +217,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0291" data-id="鎮福段0291" data-sec="鎮福段">
+<article class="site" id="鎮福段0291" data-id="鎮福段0291" data-num="P02" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P02</span>
     <span class="sid">鎮福段</span><span class="sno">0291-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">567<small> 坪</small></span>
@@ -251,8 +254,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0190" data-id="鎮福段0190" data-sec="鎮福段">
+<article class="site" id="鎮福段0190" data-id="鎮福段0190" data-num="P03" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P03</span>
     <span class="sid">鎮福段</span><span class="sno">0190-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">403<small> 坪</small></span>
@@ -287,8 +291,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0176" data-id="永益段0176" data-sec="永益段">
+<article class="site" id="永益段0176" data-id="永益段0176" data-num="P04" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P04</span>
     <span class="sid">永益段</span><span class="sno">0176-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">361<small> 坪</small></span>
@@ -323,8 +328,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0183" data-id="永益段0183" data-sec="永益段">
+<article class="site" id="永益段0183" data-id="永益段0183" data-num="P05" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P05</span>
     <span class="sid">永益段</span><span class="sno">0183-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">414<small> 坪</small></span>
@@ -359,8 +365,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0188" data-id="永益段0188" data-sec="永益段">
+<article class="site" id="永益段0188" data-id="永益段0188" data-num="P06" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P06</span>
     <span class="sid">永益段</span><span class="sno">0188-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">354<small> 坪</small></span>
@@ -395,8 +402,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0208" data-id="鎮福段0208" data-sec="鎮福段">
+<article class="site" id="鎮福段0208" data-id="鎮福段0208" data-num="P07" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P07</span>
     <span class="sid">鎮福段</span><span class="sno">0208-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">545<small> 坪</small></span>
@@ -431,8 +439,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0187" data-id="永益段0187" data-sec="永益段">
+<article class="site" id="永益段0187" data-id="永益段0187" data-num="P08" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P08</span>
     <span class="sid">永益段</span><span class="sno">0187-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">559<small> 坪</small></span>
@@ -467,8 +476,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0198" data-id="鎮福段0198" data-sec="鎮福段">
+<article class="site" id="鎮福段0198" data-id="鎮福段0198" data-num="P09" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P09</span>
     <span class="sid">鎮福段</span><span class="sno">0198-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">398<small> 坪</small></span>
@@ -503,8 +513,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0181" data-id="永益段0181" data-sec="永益段">
+<article class="site" id="永益段0181" data-id="永益段0181" data-num="P10" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P10</span>
     <span class="sid">永益段</span><span class="sno">0181-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">363<small> 坪</small></span>
@@ -539,8 +550,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0138" data-id="鎮福段0138" data-sec="鎮福段">
+<article class="site" id="鎮福段0138" data-id="鎮福段0138" data-num="P11" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P11</span>
     <span class="sid">鎮福段</span><span class="sno">0138-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">462<small> 坪</small></span>
@@ -575,8 +587,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0136" data-id="新富段0136" data-sec="新富段">
+<article class="site" id="新富段0136" data-id="新富段0136" data-num="P12" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P12</span>
     <span class="sid">新富段</span><span class="sno">0136-0000</span>
     <span class="sz">第一之B種住宅區</span>
     <span class="spg">489<small> 坪</small></span>
@@ -611,8 +624,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0161" data-id="永益段0161" data-sec="永益段">
+<article class="site" id="永益段0161" data-id="永益段0161" data-num="P13" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P13</span>
     <span class="sid">永益段</span><span class="sno">0161-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">549<small> 坪</small></span>
@@ -647,8 +661,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0127" data-id="永益段0127" data-sec="永益段">
+<article class="site" id="永益段0127" data-id="永益段0127" data-num="P14" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P14</span>
     <span class="sid">永益段</span><span class="sno">0127-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">580<small> 坪</small></span>
@@ -683,8 +698,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0212" data-id="永益段0212" data-sec="永益段">
+<article class="site" id="永益段0212" data-id="永益段0212" data-num="P15" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P15</span>
     <span class="sid">永益段</span><span class="sno">0212-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">404<small> 坪</small></span>
@@ -719,8 +735,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0061" data-id="永益段0061" data-sec="永益段">
+<article class="site" id="永益段0061" data-id="永益段0061" data-num="P16" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P16</span>
     <span class="sid">永益段</span><span class="sno">0061-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">498<small> 坪</small></span>
@@ -755,8 +772,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0159" data-id="永益段0159" data-sec="永益段">
+<article class="site" id="永益段0159" data-id="永益段0159" data-num="P17" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P17</span>
     <span class="sid">永益段</span><span class="sno">0159-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">507<small> 坪</small></span>
@@ -791,8 +809,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0136" data-id="鎮福段0136" data-sec="鎮福段">
+<article class="site" id="鎮福段0136" data-id="鎮福段0136" data-num="P18" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P18</span>
     <span class="sid">鎮福段</span><span class="sno">0136-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">395<small> 坪</small></span>
@@ -827,8 +846,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0161" data-id="永豐段0161" data-sec="永豐段">
+<article class="site" id="永豐段0161" data-id="永豐段0161" data-num="P19" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P19</span>
     <span class="sid">永豐段</span><span class="sno">0161-0000</span>
     <span class="sz">第五種商業區</span>
     <span class="spg">483<small> 坪</small></span>
@@ -843,7 +863,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P19_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -863,8 +883,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0366" data-id="新富段0366" data-sec="新富段">
+<article class="site" id="新富段0366" data-id="新富段0366" data-num="P20" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P20</span>
     <span class="sid">新富段</span><span class="sno">0366-0000</span>
     <span class="sz">第一之C種住宅區</span>
     <span class="spg">454<small> 坪</small></span>
@@ -879,7 +900,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P20_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -899,8 +920,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0422" data-id="鎮福段0422" data-sec="鎮福段">
+<article class="site" id="鎮福段0422" data-id="鎮福段0422" data-num="P21" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P21</span>
     <span class="sid">鎮福段</span><span class="sno">0422-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">395<small> 坪</small></span>
@@ -915,7 +937,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P21_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -935,8 +957,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0177" data-id="永益段0177" data-sec="永益段">
+<article class="site" id="永益段0177" data-id="永益段0177" data-num="P22" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P22</span>
     <span class="sid">永益段</span><span class="sno">0177-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">440<small> 坪</small></span>
@@ -951,7 +974,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P22_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -971,8 +994,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0057" data-id="永豐段0057" data-sec="永豐段">
+<article class="site" id="永豐段0057" data-id="永豐段0057" data-num="P23" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P23</span>
     <span class="sid">永豐段</span><span class="sno">0057-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">597<small> 坪</small></span>
@@ -987,7 +1011,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P23_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -1007,8 +1031,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0131" data-id="永益段0131" data-sec="永益段">
+<article class="site" id="永益段0131" data-id="永益段0131" data-num="P24" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P24</span>
     <span class="sid">永益段</span><span class="sno">0131-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">429<small> 坪</small></span>
@@ -1023,7 +1048,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P24_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -1043,8 +1068,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0252" data-id="鎮福段0252" data-sec="鎮福段">
+<article class="site" id="鎮福段0252" data-id="鎮福段0252" data-num="P25" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P25</span>
     <span class="sid">鎮福段</span><span class="sno">0252-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">416<small> 坪</small></span>
@@ -1059,7 +1085,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P25_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -1079,8 +1105,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永新段0045" data-id="永新段0045" data-sec="永新段">
+<article class="site" id="永新段0045" data-id="永新段0045" data-num="P26" data-sec="永新段">
   <div class="sh">
+    <span class="snum">P26</span>
     <span class="sid">永新段</span><span class="sno">0045-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">432<small> 坪</small></span>
@@ -1095,7 +1122,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
         <button type="button" class="svgo">▶　載入可轉動街景</button>
       </div>
       <figcaption>Google 街景　載入後可自由轉動、縮放、沿街移動</figcaption></figure>
-    <figure><div class="nosv">宗地形狀擷取中</div>
+    <figure><img loading="lazy" src="img/P26_shape.jpg" alt="宗地形狀">
       <figcaption>宗地形狀　紅框為本宗地，標註為各邊長度（公尺）</figcaption></figure>
   </div>
   <div class="facts">
@@ -1115,8 +1142,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0087" data-id="永豐段0087" data-sec="永豐段">
+<article class="site" id="永豐段0087" data-id="永豐段0087" data-num="P27" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P27</span>
     <span class="sid">永豐段</span><span class="sno">0087-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">548<small> 坪</small></span>
@@ -1151,8 +1179,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0036" data-id="永豐段0036" data-sec="永豐段">
+<article class="site" id="永豐段0036" data-id="永豐段0036" data-num="P28" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P28</span>
     <span class="sid">永豐段</span><span class="sno">0036-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">376<small> 坪</small></span>
@@ -1187,8 +1216,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0416" data-id="鎮福段0416" data-sec="鎮福段">
+<article class="site" id="鎮福段0416" data-id="鎮福段0416" data-num="P29" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P29</span>
     <span class="sid">鎮福段</span><span class="sno">0416-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">372<small> 坪</small></span>
@@ -1223,8 +1253,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0302" data-id="鎮福段0302" data-sec="鎮福段">
+<article class="site" id="鎮福段0302" data-id="鎮福段0302" data-num="P30" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P30</span>
     <span class="sid">鎮福段</span><span class="sno">0302-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">377<small> 坪</small></span>
@@ -1259,8 +1290,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0130" data-id="永益段0130" data-sec="永益段">
+<article class="site" id="永益段0130" data-id="永益段0130" data-num="P31" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P31</span>
     <span class="sid">永益段</span><span class="sno">0130-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">429<small> 坪</small></span>
@@ -1295,8 +1327,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0267" data-id="鎮福段0267" data-sec="鎮福段">
+<article class="site" id="鎮福段0267" data-id="鎮福段0267" data-num="P32" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P32</span>
     <span class="sid">鎮福段</span><span class="sno">0267-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">372<small> 坪</small></span>
@@ -1331,8 +1364,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0066" data-id="永豐段0066" data-sec="永豐段">
+<article class="site" id="永豐段0066" data-id="永豐段0066" data-num="P33" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P33</span>
     <span class="sid">永豐段</span><span class="sno">0066-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">385<small> 坪</small></span>
@@ -1367,8 +1401,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永春段0315" data-id="永春段0315" data-sec="永春段">
+<article class="site" id="永春段0315" data-id="永春段0315" data-num="P34" data-sec="永春段">
   <div class="sh">
+    <span class="snum">P34</span>
     <span class="sid">永春段</span><span class="sno">0315-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">443<small> 坪</small></span>
@@ -1403,8 +1438,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0086" data-id="鎮福段0086" data-sec="鎮福段">
+<article class="site" id="鎮福段0086" data-id="鎮福段0086" data-num="P35" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P35</span>
     <span class="sid">鎮福段</span><span class="sno">0086-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">520<small> 坪</small></span>
@@ -1439,8 +1475,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0423" data-id="新富段0423" data-sec="新富段">
+<article class="site" id="新富段0423" data-id="新富段0423" data-num="P36" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P36</span>
     <span class="sid">新富段</span><span class="sno">0423-0000</span>
     <span class="sz">第一之B種住宅區</span>
     <span class="spg">444<small> 坪</small></span>
@@ -1475,8 +1512,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0299" data-id="鎮福段0299" data-sec="鎮福段">
+<article class="site" id="鎮福段0299" data-id="鎮福段0299" data-num="P37" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P37</span>
     <span class="sid">鎮福段</span><span class="sno">0299-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">524<small> 坪</small></span>
@@ -1511,8 +1549,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0200" data-id="永益段0200" data-sec="永益段">
+<article class="site" id="永益段0200" data-id="永益段0200" data-num="P38" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P38</span>
     <span class="sid">永益段</span><span class="sno">0200-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">541<small> 坪</small></span>
@@ -1547,8 +1586,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0118" data-id="鎮福段0118" data-sec="鎮福段">
+<article class="site" id="鎮福段0118" data-id="鎮福段0118" data-num="P39" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P39</span>
     <span class="sid">鎮福段</span><span class="sno">0118-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">539<small> 坪</small></span>
@@ -1583,8 +1623,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0392" data-id="鎮福段0392" data-sec="鎮福段">
+<article class="site" id="鎮福段0392" data-id="鎮福段0392" data-num="P40" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P40</span>
     <span class="sid">鎮福段</span><span class="sno">0392-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">524<small> 坪</small></span>
@@ -1619,8 +1660,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0198" data-id="永豐段0198" data-sec="永豐段">
+<article class="site" id="永豐段0198" data-id="永豐段0198" data-num="P41" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P41</span>
     <span class="sid">永豐段</span><span class="sno">0198-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">354<small> 坪</small></span>
@@ -1655,8 +1697,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0393" data-id="鎮福段0393" data-sec="鎮福段">
+<article class="site" id="鎮福段0393" data-id="鎮福段0393" data-num="P42" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P42</span>
     <span class="sid">鎮福段</span><span class="sno">0393-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">589<small> 坪</small></span>
@@ -1691,8 +1734,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0282" data-id="新富段0282" data-sec="新富段">
+<article class="site" id="新富段0282" data-id="新富段0282" data-num="P43" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P43</span>
     <span class="sid">新富段</span><span class="sno">0282-0000</span>
     <span class="sz">第一之B種住宅區</span>
     <span class="spg">471<small> 坪</small></span>
@@ -1727,8 +1771,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0296" data-id="鎮福段0296" data-sec="鎮福段">
+<article class="site" id="鎮福段0296" data-id="鎮福段0296" data-num="P44" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P44</span>
     <span class="sid">鎮福段</span><span class="sno">0296-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">357<small> 坪</small></span>
@@ -1763,8 +1808,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0090" data-id="新富段0090" data-sec="新富段">
+<article class="site" id="新富段0090" data-id="新富段0090" data-num="P45" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P45</span>
     <span class="sid">新富段</span><span class="sno">0090-0000</span>
     <span class="sz">第一之B種住宅區</span>
     <span class="spg">368<small> 坪</small></span>
@@ -1799,8 +1845,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0065" data-id="永豐段0065" data-sec="永豐段">
+<article class="site" id="永豐段0065" data-id="永豐段0065" data-num="P46" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P46</span>
     <span class="sid">永豐段</span><span class="sno">0065-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">539<small> 坪</small></span>
@@ -1835,8 +1882,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0121" data-id="永益段0121" data-sec="永益段">
+<article class="site" id="永益段0121" data-id="永益段0121" data-num="P47" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P47</span>
     <span class="sid">永益段</span><span class="sno">0121-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">562<small> 坪</small></span>
@@ -1871,8 +1919,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0410" data-id="鎮福段0410" data-sec="鎮福段">
+<article class="site" id="鎮福段0410" data-id="鎮福段0410" data-num="P48" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P48</span>
     <span class="sid">鎮福段</span><span class="sno">0410-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">361<small> 坪</small></span>
@@ -1907,8 +1956,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0417" data-id="鎮福段0417" data-sec="鎮福段">
+<article class="site" id="鎮福段0417" data-id="鎮福段0417" data-num="P49" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P49</span>
     <span class="sid">鎮福段</span><span class="sno">0417-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">491<small> 坪</small></span>
@@ -1943,8 +1993,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0117" data-id="永益段0117" data-sec="永益段">
+<article class="site" id="永益段0117" data-id="永益段0117" data-num="P50" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P50</span>
     <span class="sid">永益段</span><span class="sno">0117-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">563<small> 坪</small></span>
@@ -1979,8 +2030,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0408" data-id="新富段0408" data-sec="新富段">
+<article class="site" id="新富段0408" data-id="新富段0408" data-num="P51" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P51</span>
     <span class="sid">新富段</span><span class="sno">0408-0000</span>
     <span class="sz">第一之A種住宅區</span>
     <span class="spg">395<small> 坪</small></span>
@@ -2015,8 +2067,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0338" data-id="鎮福段0338" data-sec="鎮福段">
+<article class="site" id="鎮福段0338" data-id="鎮福段0338" data-num="P52" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P52</span>
     <span class="sid">鎮福段</span><span class="sno">0338-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">451<small> 坪</small></span>
@@ -2051,8 +2104,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0070" data-id="永益段0070" data-sec="永益段">
+<article class="site" id="永益段0070" data-id="永益段0070" data-num="P53" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P53</span>
     <span class="sid">永益段</span><span class="sno">0070-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">473<small> 坪</small></span>
@@ -2087,8 +2141,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0148" data-id="新富段0148" data-sec="新富段">
+<article class="site" id="新富段0148" data-id="新富段0148" data-num="P54" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P54</span>
     <span class="sid">新富段</span><span class="sno">0148-0000</span>
     <span class="sz">第一之C種住宅區</span>
     <span class="spg">443<small> 坪</small></span>
@@ -2123,8 +2178,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0258" data-id="鎮福段0258" data-sec="鎮福段">
+<article class="site" id="鎮福段0258" data-id="鎮福段0258" data-num="P55" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P55</span>
     <span class="sid">鎮福段</span><span class="sno">0258-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">403<small> 坪</small></span>
@@ -2159,8 +2215,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0132" data-id="永豐段0132" data-sec="永豐段">
+<article class="site" id="永豐段0132" data-id="永豐段0132" data-num="P56" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P56</span>
     <span class="sid">永豐段</span><span class="sno">0132-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">426<small> 坪</small></span>
@@ -2195,8 +2252,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0330" data-id="鎮福段0330" data-sec="鎮福段">
+<article class="site" id="鎮福段0330" data-id="鎮福段0330" data-num="P57" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P57</span>
     <span class="sid">鎮福段</span><span class="sno">0330-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">435<small> 坪</small></span>
@@ -2231,8 +2289,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0502" data-id="新富段0502" data-sec="新富段">
+<article class="site" id="新富段0502" data-id="新富段0502" data-num="P58" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P58</span>
     <span class="sid">新富段</span><span class="sno">0502-0000</span>
     <span class="sz">第一之B種住宅區</span>
     <span class="spg">496<small> 坪</small></span>
@@ -2267,8 +2326,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0063" data-id="永豐段0063" data-sec="永豐段">
+<article class="site" id="永豐段0063" data-id="永豐段0063" data-num="P59" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P59</span>
     <span class="sid">永豐段</span><span class="sno">0063-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">361<small> 坪</small></span>
@@ -2303,8 +2363,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0262" data-id="鎮福段0262" data-sec="鎮福段">
+<article class="site" id="鎮福段0262" data-id="鎮福段0262" data-num="P60" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P60</span>
     <span class="sid">鎮福段</span><span class="sno">0262-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">410<small> 坪</small></span>
@@ -2339,8 +2400,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0433" data-id="新富段0433" data-sec="新富段">
+<article class="site" id="新富段0433" data-id="新富段0433" data-num="P61" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P61</span>
     <span class="sid">新富段</span><span class="sno">0433-0000</span>
     <span class="sz">第一之B種住宅區</span>
     <span class="spg">527<small> 坪</small></span>
@@ -2375,8 +2437,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0263" data-id="鎮福段0263" data-sec="鎮福段">
+<article class="site" id="鎮福段0263" data-id="鎮福段0263" data-num="P62" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P62</span>
     <span class="sid">鎮福段</span><span class="sno">0263-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">539<small> 坪</small></span>
@@ -2411,8 +2474,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0062" data-id="永豐段0062" data-sec="永豐段">
+<article class="site" id="永豐段0062" data-id="永豐段0062" data-num="P63" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P63</span>
     <span class="sid">永豐段</span><span class="sno">0062-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">401<small> 坪</small></span>
@@ -2447,8 +2511,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0346" data-id="鎮福段0346" data-sec="鎮福段">
+<article class="site" id="鎮福段0346" data-id="鎮福段0346" data-num="P64" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P64</span>
     <span class="sid">鎮福段</span><span class="sno">0346-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">526<small> 坪</small></span>
@@ -2483,8 +2548,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0328" data-id="鎮福段0328" data-sec="鎮福段">
+<article class="site" id="鎮福段0328" data-id="鎮福段0328" data-num="P65" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P65</span>
     <span class="sid">鎮福段</span><span class="sno">0328-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">368<small> 坪</small></span>
@@ -2519,8 +2585,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="楓溪段0018" data-id="楓溪段0018" data-sec="楓溪段">
+<article class="site" id="楓溪段0018" data-id="楓溪段0018" data-num="P66" data-sec="楓溪段">
   <div class="sh">
+    <span class="snum">P66</span>
     <span class="sid">楓溪段</span><span class="sno">0018-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">356<small> 坪</small></span>
@@ -2555,8 +2622,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永益段0099" data-id="永益段0099" data-sec="永益段">
+<article class="site" id="永益段0099" data-id="永益段0099" data-num="P67" data-sec="永益段">
   <div class="sh">
+    <span class="snum">P67</span>
     <span class="sid">永益段</span><span class="sno">0099-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">351<small> 坪</small></span>
@@ -2591,8 +2659,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永新段0046" data-id="永新段0046" data-sec="永新段">
+<article class="site" id="永新段0046" data-id="永新段0046" data-num="P68" data-sec="永新段">
   <div class="sh">
+    <span class="snum">P68</span>
     <span class="sid">永新段</span><span class="sno">0046-0000</span>
     <span class="sz">第五種商業區</span>
     <span class="spg">459<small> 坪</small></span>
@@ -2627,8 +2696,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0326" data-id="鎮福段0326" data-sec="鎮福段">
+<article class="site" id="鎮福段0326" data-id="鎮福段0326" data-num="P69" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P69</span>
     <span class="sid">鎮福段</span><span class="sno">0326-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">452<small> 坪</small></span>
@@ -2663,8 +2733,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="永豐段0298" data-id="永豐段0298" data-sec="永豐段">
+<article class="site" id="永豐段0298" data-id="永豐段0298" data-num="P70" data-sec="永豐段">
   <div class="sh">
+    <span class="snum">P70</span>
     <span class="sid">永豐段</span><span class="sno">0298-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">373<small> 坪</small></span>
@@ -2699,8 +2770,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="鎮福段0320" data-id="鎮福段0320" data-sec="鎮福段">
+<article class="site" id="鎮福段0320" data-id="鎮福段0320" data-num="P71" data-sec="鎮福段">
   <div class="sh">
+    <span class="snum">P71</span>
     <span class="sid">鎮福段</span><span class="sno">0320-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">558<small> 坪</small></span>
@@ -2735,8 +2807,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="新富段0215" data-id="新富段0215" data-sec="新富段">
+<article class="site" id="新富段0215" data-id="新富段0215" data-num="P72" data-sec="新富段">
   <div class="sh">
+    <span class="snum">P72</span>
     <span class="sid">新富段</span><span class="sno">0215-0000</span>
     <span class="sz">第一之C種住宅區</span>
     <span class="spg">414<small> 坪</small></span>
@@ -2771,8 +2844,9 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     <input type="text" class="note" data-note placeholder="備註" maxlength="200">
   </div>
 </article>
-<article class="site" id="楓溪段0190" data-id="楓溪段0190" data-sec="楓溪段">
+<article class="site" id="楓溪段0190" data-id="楓溪段0190" data-num="P73" data-sec="楓溪段">
   <div class="sh">
+    <span class="snum">P73</span>
     <span class="sid">楓溪段</span><span class="sno">0190-0000</span>
     <span class="sz">第一之一種住宅區</span>
     <span class="spg">464<small> 坪</small></span>
@@ -2910,7 +2984,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     var yes = [], no = [];
     cards.forEach(function (c) {
       var s = state[c.dataset.id] || {};
-      var line = "- " + c.dataset.id + (s.note ? "　# " + s.note : "");
+      var line = "- " + c.dataset.num + "　" + c.dataset.id + (s.note ? "　# " + s.note : "");
       if (s.status === "yes") yes.push(line); else if (s.status === "no") no.push(line);
     });
     return { yes: yes, no: no,
