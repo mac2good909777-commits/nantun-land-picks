@@ -155,7 +155,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
 
 <div class="lead">
 <p>這 73 筆是南屯區全區掃描後、<b>五道關卡全部通過</b>的地號：坪數、使用分區（住1-1 以上，純住一已排除）、建物登記無地上物、官方路寬 ≥15 公尺、地段成交行情 55–78 萬。取得過程<b>未花費任何 foundi 點數</b>。</p>
-<p style="margin-top:10px">逐筆看完按「要調閱」或「排除」，勾選存在這台裝置的瀏覽器裡。挑完按上方<b>「複製已選清單」</b>，貼回對話給我，我再依序調閱所有權人。</p>
+<p style="margin-top:10px">逐筆看完按「要調閱」或「排除」，勾選存在這台裝置的瀏覽器裡。挑完按上方<b>「送出選擇給 Claude」</b>——會開一個已經填好內容的 GitHub issue，你按下 Submit 我就讀得到，不必自己複製貼上。（也可以按「複製文字」自行貼回對話。）</p>
 </div>
 
 <div class="kpis">
@@ -172,7 +172,8 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
   <button type="button" data-f="no" aria-pressed="false">排除</button>
   <span style="width:8px"></span><button type="button" data-sec="新富段" aria-pressed="false">新富段</button><button type="button" data-sec="楓溪段" aria-pressed="false">楓溪段</button><button type="button" data-sec="永新段" aria-pressed="false">永新段</button><button type="button" data-sec="永春段" aria-pressed="false">永春段</button><button type="button" data-sec="永益段" aria-pressed="false">永益段</button><button type="button" data-sec="永豐段" aria-pressed="false">永豐段</button><button type="button" data-sec="鎮福段" aria-pressed="false">鎮福段</button>
   <span class="sp"></span>
-  <button type="button" class="go" id="copy">複製已選清單</button>
+  <button type="button" class="go" id="send">送出選擇給 Claude</button>
+  <button type="button" id="copy">複製文字</button>
   <span class="cnt" id="shown"></span>
 </div>
 <textarea id="out" readonly></textarea>
@@ -2664,7 +2665,7 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
 <h2>看的時候要記得的五件事</h2>
 <ul>
 <li><b>街景要按一下才載入</b>，載入後就是真的 Google 街景，可以拖曳轉向、縮放、沿街走。預設只顯示縮圖，是為了避免 73 個嵌入同時開把頁面拖垮。</li>
-<li><b>形狀還沒篩。</b>foundi 的宗地邊長畫在 WebGL canvas 上，程式讀不到（canvas 讀回為空、無 SVG 覆蓋層、向量圖磚走 WebSocket），只能人工判。點「foundi 看形狀」會直接開到該宗地，紅色框線與邊長都在上面。</li>
+<li><b>形狀還沒篩。</b>宗地邊長無法程式化取得——NLSC 地籍圖層不公開、EMAPX99 沒有宗地界線、foundi 的 canvas 讀回為空、沒有 SVG 覆蓋層、向量圖磚走 WebSocket、MapLibre 物件被 Angular 包住，六條路都試過。點「foundi 看形狀」會直接開到該宗地，紅色框線與邊長都在上面。<b>你挑完之後我可以只針對入選的幾筆把邊長讀出來，用登記面積反驗，畫成形狀圖（最長邊／長寬比／邊長）。</b></li>
 <li><b>素地判讀看植生比。</b>≥0.60 幾乎確定是雜草素地；<b>&lt;0.35 不等於有建物</b>，也可能是已整地的裸露素地——兩者在影像上同色，是這個方法已知的偏誤。看空照圖才分得出來。</li>
 <li><b>路寬是民國 110 年版官方資料</b>，13 期南側部分新闢道路尚未收錄；部分官方路帶畫在尚未闢築的計畫道路上。空照圖的青色帶就是官方路寬，可對照實際路面。</li>
 <li><b>行情是地段中位數</b>（實價登錄 2024–2025 南屯 878 筆純土地，剔除親友與持分後），不是個案價；<b>公告現值是課稅基準，不是行情</b>。</li>
@@ -2759,19 +2760,40 @@ footer{background:var(--f);color:var(--foot);padding:20px 40px;font-size:13px;li
     });
   });
 
-  document.getElementById("copy").addEventListener("click", function () {
+  function summary() {
     var yes = [], no = [];
     cards.forEach(function (c) {
       var s = state[c.dataset.id] || {};
-      var line = c.dataset.id + (s.note ? "　# " + s.note : "");
+      var line = "- " + c.dataset.id + (s.note ? "　# " + s.note : "");
       if (s.status === "yes") yes.push(line); else if (s.status === "no") no.push(line);
     });
-    var txt = "要調閱（" + yes.length + " 筆，" + yes.length * COST + " 點）\n" + yes.join("\n") +
-              "\n\n排除（" + no.length + " 筆）\n" + no.join("\n");
+    return { yes: yes, no: no,
+      txt: "## 要調閱（" + yes.length + " 筆，需 " + yes.length * COST +
+           " 點／餘額 " + POINTS + "）\n" + yes.join("\n") +
+           "\n\n## 排除（" + no.length + " 筆）\n" + no.join("\n") };
+  }
+
+  document.getElementById("copy").addEventListener("click", function () {
+    var t = summary().txt;
     var ta = document.getElementById("out");
-    ta.style.display = "block"; ta.value = txt; ta.select();
-    try { navigator.clipboard.writeText(txt); } catch (e) {}
+    ta.style.display = "block"; ta.value = t; ta.select();
+    try { navigator.clipboard.writeText(t); } catch (e) {}
     try { document.execCommand("copy"); } catch (e) {}
+  });
+
+  document.getElementById("send").addEventListener("click", function () {
+    var r = summary();
+    if (!r.yes.length && !r.no.length) { alert("還沒有勾選任何地號。"); return; }
+    var title = "調閱挑選　要調閱 " + r.yes.length + " 筆（" + r.yes.length * COST + " 點）";
+    var url = "https://github.com/mac2good909777-commits/nantun-land-picks/issues/new"
+            + "?title=" + encodeURIComponent(title)
+            + "&body=" + encodeURIComponent(r.txt + "\n\n---\n送出時間 " +
+                                            new Date().toLocaleString("zh-TW"));
+    if (url.length > 7800) {
+      alert("選取內容過長，請改用「複製文字」貼回對話。");
+      document.getElementById("copy").click(); return;
+    }
+    window.open(url, "_blank", "noopener");
   });
 
   paint();
